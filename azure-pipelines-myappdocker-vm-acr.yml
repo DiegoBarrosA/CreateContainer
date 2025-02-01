@@ -4,11 +4,11 @@ trigger:
       - main
 
 variables:
-  VM_IP_PUBLICA: '48.211.160.12'  # Se debe colocar la IP pública de tu máquina virtual
+  VM_IP_PUBLICA: '52.179.169.185'  # Se debe colocar la IP pública de tu máquina virtual
   IMAGE_NAME: 'myapp-nginx-s4'  # Se debe colocar el Nombre de la imagen que será descargada desde ACR
-  ACR_NAME: 'myappdevops'  # Se debe colocar el Nombre de tu Azure Container Registry (ACR)
-  ACR_USERNAME: 'myappdevops'  # Se debe colocar el Nombre de usuario del ACR
-  ACR_PASSWORD: 'gZd5xvFW9eCE3XG8P8B+mNxPLwqpGaCatRSihhqB9e+ACRBU6USe'  # Se debe colocar la Contraseña del ACR
+  ACR_NAME: 'conatinerregistry01022025'  # Se debe colocar el Nombre de tu Azure Container Registry (ACR)
+  ACR_USERNAME: 'conatinerregistry01022025'  # Se debe colocar el Nombre de usuario del ACR
+  ACR_PASSWORD: 'wrdxclIUUN4FgJm3LYSs2YMY0r/XTh73D+LppK0olR+ACRAruL9H'  # Se debe colocar la Contraseña del ACR
 
 stages:
   - stage: Deploy
